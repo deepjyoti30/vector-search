@@ -1,0 +1,26 @@
+{
+    "image": "https://imgur.com/QlYvx1i.png",
+    "name": "classic",
+    "label": "Faceted Search",
+    "description": "A single page app that displays a faceted search UI",
+    "section": "e-commerce",
+    "section_label": "<h3>E-commerce Search</h3>",
+    "excludePaths": [
+        "/.eslintignore",
+        "/.eslintrc.js",
+        "/.gitignore",
+        "/.nvmrc",
+        "/.prettierrc.js",
+        "/.vscode",
+        "/README.md",
+        "/build",
+        "/config-overrides.js",
+        "/yarn.lock"
+    ],
+    "pages": {
+        "home": "/"
+    },
+    "preferences_path": "src/utils/constants.js",
+    "previewURL": "https://faceted-search-template.vercel.app/",
+    "resultByCategory": true
+}
